@@ -1,0 +1,368 @@
+body{
+    max-width: 1440px;
+    min-width: 1440px;
+    min-height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    min-height: 98vh;
+    overflow: hidden;
+}
+
+.back-box{
+    background: linear-gradient(202deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 25%;
+    height: 80%;
+    position: absolute;
+    border-bottom-right-radius: 195px;
+    border-bottom-left-radius: 195px;
+}
+
+.content{
+    width: 1440px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5em;
+    align-items: center;
+}
+
+.phone-part{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 0.6em;
+    margin-left: 2em;
+    box-shadow: 8px 13px 50px rgb(0 0 0 / 0.2);
+}
+
+.phone-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+}
+
+.header-UI{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(270deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px 25px 10px 10px ;
+    justify-content: space-between;
+    box-shadow: 0px 0.1px 5px black;
+    position: relative;
+}
+
+.top-box{
+    background-color: hsl(0, 0%, 100%);
+    width: 10em;
+    height: 1em;
+    border-radius: 0 0 10px 10px;
+}
+
+.info-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.left{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5em;
+    justify-content: space-between;
+}
+
+.fas{
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+
+.fa-chevron-left{
+    margin-right: 1em;
+}
+
+.info-sec img{
+    width: 2em;
+    height: 2em;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.text-part{
+    width: 30%;
+}
+
+.cont-info h2, .cont-info h3{
+    margin: 5px;
+}
+
+h3{
+    font-size: 10px;
+    color: hsl(276, 100%, 81%);
+}
+
+.cont-info h2{
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 0px 0px 3px hsl(271, 36%, 24%);
+}
+
+
+
+/* main */
+
+.main-app{
+    padding: 0 0.5em;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.left-chat{
+    width: 63%;
+    margin-bottom: 0.5em;
+}
+
+ul{
+    background-color: #EDE5F4;
+    border-radius: 15px 15px 15px 5px;
+    margin-bottom: 0.5em;
+    padding: 0;
+    margin-top: 0;
+}
+
+ul h3{
+    padding: 1em;
+    color: hsl(276, 55%, 52%);
+    margin: 0;
+}
+
+.middel{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 40%;
+    margin-bottom: 0.5em;
+}
+
+
+.img-msg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+}
+
+.dog{
+    width: 3em;
+    height: 3em;
+    border-radius: 10px;
+    margin-left: 0.5em;
+}
+
+.middel ul{
+    border-radius: 15px 15px 5px 15px;
+    margin-top: 0;
+    background-color: #fff;
+}
+
+.middel ul h3{
+    padding: 1em;
+    color: hsl(271, 15%, 43%);
+}
+
+
+.special-msg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(270deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    margin-bottom: 0.5em;
+    border-radius: 15px 15px 15px 5px;
+    padding: 0.2em 1em;
+    width: 100%;
+}
+
+i{
+    margin-right: 0.3em;
+    color: hsl(276, 100%, 81%);
+}
+
+.special-msg h1{
+    margin: 0;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.top{
+    margin-top: 1em;
+}
+
+.lft{
+    display: flex;
+    align-items: center;
+}
+
+.lft h3{
+    color: hsl(0, 0%, 100%);
+}
+
+.msg-place{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    /* padding: 1em 0; */
+    border-radius: 50px;
+    margin-bottom: 0.8em;
+}
+
+.msg-place input{
+    outline: none;
+    border: none;
+    /* width: 100%; */
+    height: 100%;
+    background: none;
+    padding: 1em 0;
+}
+
+input::placeholder{
+    color: hsl(206, 6%, 79%);
+}
+
+.fa-chevron-circle-right{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+    color: hsl(271, 36%, 24%);
+}
+
+.phone-container{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+/* text part */
+
+.text-part{
+    margin-left: 10em;
+}
+
+.text-part h4{
+    color: hsl(270, 7%, 64%);
+    line-height: 30px;
+}
+
+.text-part h1{
+    color: hsl(276, 48%, 37%);
+}
+
+.back-box-oplow{
+    background: linear-gradient(202deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 25%;
+    height: 80%;
+    position: absolute;
+    border-top-right-radius: 195px;
+    border-top-left-radius: 195px;
+    margin-left: 70vw;
+    margin-top: 30vh;
+    opacity: 10%;
+}
+
+.background{
+    width: 1440px;
+    min-height: 97vh;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    body{
+        max-width: 375px;
+        min-width: 375px;
+        min-height: 100vh;
+        display: flex;
+        overflow: visible;
+        flex-direction: column;
+
+    }
+
+    .main{
+        width: 375px;
+    }
+
+    .background{
+        width: 375px;
+        overflow: hidden;
+    }
+
+    .back-box-oplow{
+        width: 50%;
+        border-top-right-radius: 0px;
+    }
+
+    .content{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .attribution{
+        margin-top: 19em;
+    }
+
+    .phone-part{
+        margin: 0;
+        margin-bottom: 5em;
+    }
+
+    .back-box{
+        width: 50%;
+        height: 70%;
+        border-bottom-left-radius: 0px;
+    }
+
+    .text-part{
+        margin: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4em;
+    }
+
+    .text-part h4{
+        text-align: center;
+    }
+    
+}
